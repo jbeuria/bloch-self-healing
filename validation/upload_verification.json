@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "release_type": "standalone source code; no trial datasets or trajectories",
+  "working_configuration_byte_identical_to_reported_configuration": true,
+  "working_configuration_sha256": "ccc5b1e10ceb3c24a846dbfb052a70152158f8d834924645105e77960ce4d6d1",
+  "original_computation_modules_unchanged": {
+    "simulation.py": "11613015982b8a4c157f6ce0c2ead7e4c5301c8194667344624ee329eef63951",
+    "scenarios.py": "875724ee3d1eae511d2216a3b012f52b49a016bde2c87056238b086ae378538b",
+    "metrics.py": "444a881fe48a4f48213554e91204cec8e641a605ed03142189ad36d181bcdff9",
+    "healing_refinement_analysis.py": "8f66e556d1ce46bb07e0f6d6f974ecd817ac107757f576656b5a6741d7a4a4ce",
+    "controller.py": "e9f966b929fba688695227d05a22a5780d1cc0827d6bc8c036a3665e9f99c512",
+    "config.py": "197a2f4f3bae24235ebcdcfc9171061ab1628128b3fbb2e10a66f60d57f74108",
+    "__init__.py": "e24ad63a598e9a5ee06f3e78ba614c126cd22d1e102eb079e92995fa4dd07b42",
+    "comparison_analysis.py": "2a03ea6dc90a493a035eb5e0c66a5c08cdacf5f27b2197d66b8b1d26d8c37c22",
+    "generalization_analysis.py": "c26a2ab86d431b9a93ed28b16c0de30a26f67dfc8b8f1016594337ae120c6c56",
+    "generalization.py": "71e0402e44e7b388d30c78e9465dc02d99b14649e18619189bacb555c9da6c07",
+    "safety.py": "5fa8b5975fa2c955c75d317a931fff7c6a1eb2c6a304f85bfd9b8c6916b14abb",
+    "external_controllers.py": "3d872d225741dd2713d329db18f734d9aa04bafb1f8bf62e42fa747542d169d7",
+    "compare.py": "66bc08a1e3ae6b3ff4d0ec47e5a8333b46dae4ff373e4b9f0d17b8d0d5651d70"
+  },
+  "default_tests": {
+    "passed": 51,
+    "optional_C_tests_excluded": 3
+  },
+  "new_primary_replay": {
+    "trials": 42,
+    "seeds": [
+      73001,
+      73002
+    ],
+    "tasks": 3,
+    "controllers": 7,
+    "comparison": "Matched retained research records for cluster/polarization traces, spatial recordings and key outcomes",
+    "rtol": 1e-12,
+    "atol": 1e-12,
+    "reference_datasets_included": false
+  },
+  "standalone_directory_check": {
+    "arbitrary_clone_name": true,
+    "parent_research_files_required": false,
+    "fresh_smoke_trials_completed": 21
+  },
+  "generated_result_analysis": {
+    "primary_statistics": "passed on 42 fresh trials",
+    "threshold_checks": "252 trial/threshold rows and 126 aggregate rows generated"
+  },
+  "plotting_input_check": {
+    "status": "passed",
+    "PDF_save_calls_intercepted": 5,
+    "PDFs_written": 0,
+    "scope": "Fresh two-seed primary results and existing sensitivity summaries; no visual rendering assessment"
+  },
+  "citations": "README, BibTeX and preferred GitHub citation use arXiv:2607.11960 first; PRSA and arXiv:2510.23688 are supporting references",
+  "limitations": [
+    "The entire 6510-trial simulation suite was not rerun during this packaging check.",
+    "Sensitivity simulation and statistical modules are byte-identical to the reported implementation; no new complete sensitivity run was performed.",
+    "Post-run safety verification relies on the simulation-recorded minimum swept clearances.",
+    "No TeX or optional C oracle was compiled; no figures were generated."
+  ],
+  "source_cleanup": {
+    "removed_modules": [
+      "external_benchmark.py",
+      "optimize.py",
+      "history_compare.py",
+      "feedback_paths.py",
+      "mechanism.py"
+    ],
+    "removed_tests": "Four tests exclusively covering the deleted legacy experiments; current model, safety, initialization, endpoint and statistical tests retained.",
+    "helper_relocation": "Unchanged SHA-256 helper moved from external_benchmark.py to storage.py; imports adjusted in healing_search.py and healing_refinement.py.",
+    "simulation_equations_and_parameters_changed": false,
+    "remaining_tests_passed": 51,
+    "optional_C_tests_excluded": 3,
+    "isolated_primary_smoke_trials_after_cleanup": 21,
+    "package_imports": "All relative/package import targets resolve",
+    "originals_archived_outside_upload": true
+  }
+}

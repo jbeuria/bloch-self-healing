@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/csviragh/robotsim",
+  "commit": "ea54b97e7e2659449e721ebd4a2285beb9b0e9ce",
+  "retrieved_on": "2026-10-19",
+  "functions": {
+    "VelDecayLinSqrt": {
+      "source_url": "https://github.com/csviragh/robotsim/blob/ea54b97e7e2659449e721ebd4a2285beb9b0e9ce/src/utilities/math_utils.c",
+      "source_file_sha256": "37b7e4a1d701fb28e3e6a17f3617a1dca19526b47a0e4252b6b01eacb2f5c2fb",
+      "function_sha256": "c3056547db300045a42eb7cce681795def2709ebfc86c864851b57652be4ed03"
+    },
+    "FrictionLinSqrt": {
+      "source_url": "https://github.com/csviragh/robotsim/blob/ea54b97e7e2659449e721ebd4a2285beb9b0e9ce/src/utilities/interactions.c",
+      "source_file_sha256": "5e7f7253ab2076ce06340e9f807872369213298bdc175420008d9fae0166ffca",
+      "function_sha256": "27d9054dc243a2f01924302440bdf8b7b120d9c560d9cfc9e13c7e0cbbd948d3"
+    },
+    "Shill_Obstacle_LinSqrt": {
+      "source_url": "https://github.com/csviragh/robotsim/blob/ea54b97e7e2659449e721ebd4a2285beb9b0e9ce/src/algo_spp_evol.c",
+      "source_file_sha256": "12f8b7b18045e2a360ea428995a47e44d8f6bbb53bcd2bb6f2e2281f9eb520a9",
+      "function_sha256": "30cbce52b00c52156ef88422eab25cc4a0f90688b29cb5fdbea14a18a56ea90e"
+    }
+  },
+  "limits": "Original interaction and braking bodies only. Compatibility vector functions and circular obstacle projection are supplied by the audit harness; no claim of full simulator equivalence."
+}

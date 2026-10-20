@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "Please cite the self-healing preprint for this implementation and the foundational papers for the perceptual architecture. See CITATIONS.bib and README.md."
+type: software
+title: "Self-Healing Coordination in Swarm Agents with Bloch-Type Perceptual Memory: simulation code"
+version: "0.2.0"
+date-released: "2026-10-21"
+repository-code: "https://github.com/jbeuria/bloch-self-healing"
+authors:
+  - family-names: Beuria
+    given-names: Jyotiranjan
+preferred-citation:
+  type: unpublished
+  title: "Self-Healing Coordination in Cognitive Swarm Agents with Bloch-Type Perceptual Memory"
+  authors:
+    - family-names: Beuria
+      given-names: Jyotiranjan
+  year: 2026
+  notes: "arXiv:2607.11960"
+  doi: "10.48550/arXiv.2607.11960"
+  url: "https://arxiv.org/abs/2607.11960"
+references:
+  - type: article
+    title: "Collective motion from quantum-inspired dynamics in visual perception"
+    authors:
+      - family-names: Beuria
+        given-names: Jyotiranjan
+      - family-names: Chaurasiya
+        given-names: Mayank
+      - family-names: Behera
+        given-names: Laxmidhar
+    year: 2025
+    journal: "Proceedings of the Royal Society A"
+    volume: "481"
+    issue: "2321"
+    start: "20250489"
+    doi: "10.1098/rspa.2025.0489"
+  - type: unpublished
+    title: "Non-Markovian Collective Motion from Self-Regulated Perceptual Dynamics"
+    authors:
+      - family-names: Beuria
+        given-names: Jyotiranjan
+    year: 2025
+    notes: "arXiv:2510.23688; version 2 revised 7 May 2026."
+    doi: "10.48550/arXiv.2510.23688"
+    url: "https://arxiv.org/abs/2510.23688v2"

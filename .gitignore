@@ -1,0 +1,11 @@
+results/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+.venv/
+
+# Simulation datasets are generated locally, not part of this code release.
+data/
+*.npz
+*.npy
